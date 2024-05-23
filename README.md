@@ -15,7 +15,7 @@ Etapa de desenvolvimento de codigo para tratamento dos dados e técnicas de `Mac
 ## Arquitetura do Projeto
 O projeto utiliza a arquitetura medallion trazendo as camadas `bronze`, `silver` e `gold` para armazenamento 
 
-![arquitetura esboço](https://github.com/thiagothr/Machine_Learning_TCC/assets/72639507/bfa75e8e-b384-4f0c-9d0f-d906a03f7cdb)
+![Arquitetura_Medalhão drawio](https://github.com/thiagothr/Machine_Learning_TCC/assets/72639507/6c33f16f-3bd8-4988-a355-6b56c1e31da1)
 
 
 antes de tudo foi criado recursos no ambiente da `Azure` para conseguirmos presseguir com todo o armazenamento na nuvem. Depois de todos os recuros criados, criamos o armazenamento no storage account utilizando o `Data Lake Storage Gen 2`
