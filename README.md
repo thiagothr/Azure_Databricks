@@ -24,3 +24,19 @@ e fizemos a criação das camadas `bronze`, `silver` e `gold`.
 ![Captura de tela 2024-05-19 204724](https://github.com/thiagothr/Machine_Learning_TCC/assets/72639507/98e13085-85fc-43bb-8902-6bec23d8eefb)
 
 Após a criação das camadas fizemos o upload dos datasets `Cancer_Data.csv` e `Dados_dummies.csv` para a cada `Bronze` conhecida como camada `Raw` onde todo os dados brutos vão ser armazenados nessa camada para ser enviada ao `Databricks`
+
+## Databricks
+como falado anteriormente após todo o armazenamento dos dados no datalake do azure criamos o workspace para acessar o `databricks` para realizar toda a etapa de tratamento dos dados é criação dos modelos de `Machine learning`.
+abaixo podemos ver criação e configuração do cluster onde vamos realizar todo nosso projeto.
+![databricks](https://github.com/thiagothr/Machine_Learning_TCC/assets/72639507/8c7f6f87-9d7b-4e38-a6e9-7c43ec06fa9b)
+depois do cluster criado agora vamos para as etapas importantes que é o tratamento dos dados e a criação dos modelos de `ML.
+
+### Etapa desenvolvimento
+antes de realizar qualquer tratamento é importante levar os dados do nosso datalake para o databricks e para isso precisamos montar uma conexão entre o databricks e o datalake para pordemos extrair e tratar os dados da nossa camada `bronze`![mount_databricks](https://github.com/thiagothr/Machine_Learning_TCC/assets/72639507/87e961c9-34c5-4f76-9ed1-c91e42b42b4c)
+feito a criação dessa conexão agora podemos tratar os dados e criar os modelos todo o script criado para o dataset `Cancer_Data.csv` e `Dados_dummies.csv` se encontra `Machine_Learning_Cancer.ipynb` e `Machine_Learning_Cancer2.ipynb`.
+
+## Processos de Machine Learning
+abaixo mostraremos um processo de machine learning onde realizamos cada etapa do ciclo apresentado abaixo.
+
+![ciclo ml](https://github.com/thiagothr/Machine_Learning_TCC/assets/72639507/420bf780-67be-4297-835c-defda3a941c6)
+
